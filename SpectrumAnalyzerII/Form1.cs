@@ -115,6 +115,10 @@ namespace SpectrumAnalyzerII
             myPen.Width = 1;
             SolidBrush myBrush = new SolidBrush(Color.FromArgb(0, 0, 0));
 
+            Font drawFont = new Font("Arial", 8);
+            StringFormat drawFormat = new System.Drawing.StringFormat();
+            SolidBrush myTextBrush = new SolidBrush(Color.FromArgb(180, 255, 180));
+
             // --- draw a graph (frequency vs. magnitude) --- //
 
             int w = ClientRectangle.Width;
@@ -136,7 +140,17 @@ namespace SpectrumAnalyzerII
                 ypos1 = h - ypos1;
                 ypos2 = h - ypos2;
 
-                gfx.DrawLine(myPen, xpos1, ypos1, xpos2, ypos2);
+                gfx.DrawLine(myPen, xpos1, (ypos1*9)/10, xpos2, (ypos2*9)/10);
+                
+                
+
+            }
+
+            for (int i = 0; i < 22; i++) {
+
+                gfx.DrawLine(myPen, (i * w) / 22, (19 * h) / 20, (i * w) / 22, h);
+
+                gfx.DrawString((((i*(samplingFrequency/2))/22)/1000).ToString()+"kHz", drawFont, myTextBrush, (i * w) / 22, (19 * h) / 20, drawFormat);
 
             }
 
