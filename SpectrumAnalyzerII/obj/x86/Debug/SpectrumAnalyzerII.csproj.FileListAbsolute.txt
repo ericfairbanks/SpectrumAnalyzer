@@ -1,0 +1,9 @@
+c:\users\efairbanks\documents\visual studio 2010\Projects\SpectrumAnalyzerII\SpectrumAnalyzerII\bin\Debug\SpectrumAnalyzerII.exe
+c:\users\efairbanks\documents\visual studio 2010\Projects\SpectrumAnalyzerII\SpectrumAnalyzerII\bin\Debug\SpectrumAnalyzerII.pdb
+c:\users\efairbanks\documents\visual studio 2010\Projects\SpectrumAnalyzerII\SpectrumAnalyzerII\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\efairbanks\documents\visual studio 2010\Projects\SpectrumAnalyzerII\SpectrumAnalyzerII\obj\x86\Debug\SpectrumAnalyzerII.Properties.Resources.resources
+c:\users\efairbanks\documents\visual studio 2010\Projects\SpectrumAnalyzerII\SpectrumAnalyzerII\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\efairbanks\documents\visual studio 2010\Projects\SpectrumAnalyzerII\SpectrumAnalyzerII\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\efairbanks\documents\visual studio 2010\Projects\SpectrumAnalyzerII\SpectrumAnalyzerII\obj\x86\Debug\SpectrumAnalyzerII.exe
+c:\users\efairbanks\documents\visual studio 2010\Projects\SpectrumAnalyzerII\SpectrumAnalyzerII\obj\x86\Debug\SpectrumAnalyzerII.pdb
+c:\users\efairbanks\documents\visual studio 2010\Projects\SpectrumAnalyzerII\SpectrumAnalyzerII\obj\x86\Debug\SpectrumAnalyzerII.Form1.resources
