@@ -108,6 +108,8 @@ namespace SpectrumAnalyzerII
 
             // Get the graphics object 
             Graphics gfx = e.Graphics;
+            // turn on anti-aliasing for pretty lines
+            gfx.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
             // Create a new pen that we shall use for drawing the line 
             Pen myPen = new Pen(Color.FromArgb(180, 255, 180));
             myPen.Width = 1;
